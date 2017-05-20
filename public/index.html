@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>File Metadata Microservice</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container text-center">
+    	<h1>File Metadata Microservice</h1>
+    	<h4>An API Powered by NodeJS</h4>
+    </div>
+    <div class="container">
+      <h2>Summary</h2>
+      <p>Returns the size of the file (in bytes) that the user uploaded.</p>
+
+      <h2>Usage</h2>
+      <p>Upload the file of your choice below:</p>
+
+      <form method="post" enctype="multipart/form-data" action="/result">
+        <div class="form-group">
+          <label for="uploadfile">File Input</label>
+          <input type="file" name="uploadfile">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+      <h3>Sample Output</h3>
+      <code>
+        {<br>
+          &nbsp;&nbsp;size: 12345<br>
+        }
+      </code>
+    </div>
+  </body>
+</html>

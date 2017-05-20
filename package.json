@@ -1,0 +1,25 @@
+{
+  "name": "filesize",
+  "version": "1.0.0",
+  "description": "File Metadata Microservice",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "watch": "gulp watch"
+  },
+  "author": "Adwin Ying",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "multer": "^1.3.0",
+    "serve-favicon": "^2.4.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-nodemon": "^2.2.1",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1"
+  }
+}
